@@ -13,4 +13,22 @@
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
 
+    <Button
+        android:id="@+id/buttonGreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="44dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/buttonGreen"
+        android:layout_alignBottom="@+id/buttonGreen"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
 </RelativeLayout>
